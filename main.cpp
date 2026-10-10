@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
-using namespace std;
+// Solution for tic-tac-toe validation
+using namespace std; // standard namespace
 
 bool checkWin(const vector<string>& b, char c) {
     // rows
@@ -47,4 +48,5 @@ int main() {
     else if (cntX + cntO == 9) cout << "tie\n";
     else cout << "ongoing\n";
     return 0;
+// End of solution
 }
